@@ -47,7 +47,7 @@ This regular expression can get us the rows containing start and end times
 [0-9]{2}:[0-9]{2}:[0-9]{2} [0-9]{2} [A-Z]{3} [0-9]{4},(START|END),
 
 ```
-we can then use command to extract a sorted list of the program name start and end time
+we can then use this command to extract a sorted list of the program name start and end time
 
 _grep_ filters out the timestamp rows from the logs
 _sort_ gets the file sorted by program name then by the start/end column
