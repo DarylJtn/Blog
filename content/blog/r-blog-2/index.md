@@ -2,7 +2,6 @@
 title: Performance Reporting 2
 date: "2020-05-05"
 description: "Visualising daily data"
-featuredImage: /assets/screenshot1.png
 ---
 
 ![R Studio](screenshot3.png "R Studio")
@@ -26,7 +25,7 @@ download .csv [here](https://raw.githubusercontent.com/DarylJtn/R-Examples/maste
 
 
 ##PACKAGES
-4 packages will be used to produce this report, reshape2 for manipulating the data, GGplot2 for making the charts using the google charts api and timevis for working with the datestamps
+3 packages will be used to produce this report, reshape2 for manipulating the data, GGplot2 for making the charts using the google charts api and timevis for working with the datestamps
 
 ###Installing packages
 
