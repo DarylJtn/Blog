@@ -7,8 +7,6 @@ The first step to dealing with performance issues in a codebase is visualising t
 
 Often times these reports are needed with quick turnarounds after a system failure and require to be updated daily. Using R, bash and python we can create a minimum viable product and build on top of it creating reports that change with the needs of stakeholders.
 
-This blog post will go over manipulating data from logs into a useful csv format and some of the ways the data can be visualised.
-
 In the following examples we will imagine a system running a batch of programs some in series and some concurrently. The processes will run between 10pm to 4am and the objective of the reports will be to find parts of the system we can focus on to reduce the time the over all batch
 
 ## DATA WRANGLING
@@ -42,7 +40,7 @@ We want to end up with a csv table looking something like this:
 | Payment       | 20:00:00      | 21:14:25  |
 | LETTER-PROCESS| 20:00:01      | 21:05:25  |
 
-We can use the grep command to extract the timestamp rows
+The grep command can be used to extract the timestamp rows
 This regular expression can get us the rows containing start and end times
 
 ```
